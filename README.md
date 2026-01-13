@@ -7,7 +7,7 @@
 ## 📌 Project Overview
 This project involves a comprehensive analysis of customer feedback data from multiple café locations. The primary objective was to resolve significant data integrity issues in a raw dataset and transform unstructured customer comments into actionable business intelligence.
 
-**Status:** ✨ Completed Analysis (Recruitment Task for Customer Radar).  
+**Status:** Completed Analysis (Task assigned from [Customer Radar](https://customerradar.com/)).  
 **Interactive Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/kelvin.kumar/viz/cafe_graphs/Dashboard1?publish=yes)
 
 ---
@@ -50,6 +50,7 @@ Developed a Tableau dashboard focused on two key pillars:
 ### 🛠️ Problem: Corrupted Timestamps
 **Issue:** 0.16% of transaction dates were stored as numeric patterns in the transaction value column.  
 **Solution:** Reconstructed the timestamps using a nested Excel formula to restore the correct format:
+
 ```excel=UPPER(TEXT(DATE(2000+LEFT(x,2), MID(x,3,2), MID(x,5,2))+TIME(MID(x,7,2), MID(x,9,2), MID(x,11,2)), "dd/mm/yyyy h:mm:ss AM/PM"))```
 
 ---
@@ -57,18 +58,22 @@ Developed a Tableau dashboard focused on two key pillars:
 ## 🛠️ Problem: Unstructured Text Analysis
 **Issue:** Counting specific word appearances within a large range of unstructured text.
 **Solution:** Applied a case-insensitive SUMPRODUCT and SUBSTITUTE logic to calculate precise appearances:
+
 ```excel==SUMPRODUCT((LEN(comment_range) - LEN(SUBSTITUTE(LOWER(comment_range), LOWER(keyword), ""))) / LEN(keyword))```
 
 ---
 
 ## 💡 Recommendations
   • Scale Excellence: Invest in staff training at lower-performing locations to mirror the "friendly" service found at top-rated sites.
+  
   • Reduce Friction: Review operational workflows at sites with high "wait time" mentions to improve order accuracy and speed.
+  
   • Keyword Monitoring: Implement ongoing keyword tracking to identify shifts in customer expectations or emerging product issues.
 
 ---
 
 ## 🚀 Tools Used
   • Excel: Data cleaning, formula-based timestamp reconstruction, and word frequency analysis.
+  
   • Tableau: Data visualization and dashboard design.
   
