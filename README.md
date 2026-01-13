@@ -57,6 +57,7 @@ Developed a Tableau dashboard focused on two key pillars:
 
 ## 🛠️ Problem: Unstructured Text Analysis
 **Issue:** Counting specific word appearances within a large range of unstructured text.
+
 **Solution:** Applied a case-insensitive SUMPRODUCT and SUBSTITUTE logic to calculate precise appearances:
 
 ```excel==SUMPRODUCT((LEN(comment_range) - LEN(SUBSTITUTE(LOWER(comment_range), LOWER(keyword), ""))) / LEN(keyword))```
