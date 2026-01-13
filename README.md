@@ -64,16 +64,16 @@ Developed a Tableau dashboard focused on two key pillars:
 ---
 
 ## 💡 Recommendations
-  • Scale Excellence: Invest in staff training at lower-performing locations to mirror the "friendly" service found at top-rated sites.
+  • **Scale Excellence:** Invest in staff training at lower-performing locations to mirror the "friendly" service found at top-rated sites.
   
-  • Reduce Friction: Review operational workflows at sites with high "wait time" mentions to improve order accuracy and speed.
+  • **Reduce Friction:** Review operational workflows at sites with high "wait time" mentions to improve order accuracy and speed.
   
-  • Keyword Monitoring: Implement ongoing keyword tracking to identify shifts in customer expectations or emerging product issues.
+  • **Keyword Monitoring:** Implement ongoing keyword tracking to identify shifts in customer expectations or emerging product issues.
 
 ---
 
 ## 🚀 Tools Used
-  • Excel: Data cleaning, formula-based timestamp reconstruction, and word frequency analysis.
+  • **Excel:** Data cleaning, formula-based timestamp reconstruction, and word frequency analysis.
   
-  • Tableau: Data visualization and dashboard design.
+  • **Tableau:** Data visualization and dashboard design.
   
