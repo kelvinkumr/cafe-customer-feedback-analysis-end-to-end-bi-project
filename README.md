@@ -33,14 +33,14 @@ This project involves a comprehensive analysis of customer feedback data from mu
 ### Step 1: Data Cleaning & Integrity
 Identified and resolved structural errors in the raw dataset to ensure accurate analysis:
 * **Data Imputation:** Corrected a corruption issue where transaction dates were erroneously stored in the transaction value column (affecting 0.16% of the data).
-* **Standardization:** Converted all columns to correct data types and removed miscellaneous feedback IDs found outside the primary dataset.
+* **Standardisation:** Converted all columns to correct data types and removed miscellaneous feedback IDs found outside the primary dataset.
 
 ### Step 2: Qualitative-to-Quantitative Transformation
 To quantify unstructured customer comments, I developed logic to calculate the frequency of specific phrases across **2,400+ rows** of feedback. This created a structured map of customer sentiment.
 
 ### Step 3: Visual Dashboarding
 Developed a Tableau dashboard focused on two key pillars:
-* **Comparative Performance:** A visualization of **Average Rating by Location** to identify top and bottom performers.
+* **Comparative Performance:** A visualisation of **Average Rating by Location** to identify top and bottom performers.
 * **Thematic Analysis:** A **Word Frequency Visual** to highlight the recurring topics customers mention most.
 
 ---
@@ -76,5 +76,5 @@ Developed a Tableau dashboard focused on two key pillars:
 ## 🚀 Tools Used
   • **Excel:** Data cleaning, formula-based timestamp reconstruction, and word frequency analysis.
   
-  • **Tableau:** Data visualization and dashboard design.
+  • **Tableau:** Data visualisation and dashboard design.
   
